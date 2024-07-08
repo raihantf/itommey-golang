@@ -14,7 +14,7 @@ func segitigaSamaSisi(baris int) {
 		}
 		for k := 1; k <= 2*i-1; k++ {
 			if k%2 == 1 {
-				fmt.Print("#")
+				fmt.Print("1")
 			} else {
 				fmt.Print(" ")
 			}
